@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testigos de Solar Punk - Propuesta Creativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            color: #e2e8f0;
+        }
+        .mono {
+            font-family: 'Space Mono', monospace;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #10b981, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .solar-gradient {
+            background: linear-gradient(135deg, #fbbf24, #10b981, #059669);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .section-divider {
+            background: linear-gradient(90deg, transparent, #10b981, transparent);
+            height: 2px;
+            margin: 2rem 0;
+        }
+        .icon-solar {
+            color: #fbbf24;
+        }
+        .icon-green {
+            color: #10b981;
+        }
+        .bg-card {
+            background: rgba(30, 41, 59, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        .quote-style {
+            border-left: 4px solid #10b981;
+            background: rgba(16, 185, 129, 0.1);
+        }
+         {
+            body {
+                background: #0f172a !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="py-8 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="inline-flex items-center justify-center w-20 h-20 rounded-full solar-gradient mb-6">
+                <i class="fas fa-sun text-3xl text-white"></i>
+            </div>
+            <h1 class="text-5xl font-bold gradient-text mb-4">Testigos de Solar Punk</h1>
+            <p class="text-xl text-gray-300 mono">"¿Ha escuchado la buena noticia del compostaje comunitario?"</p>
+            <div class="section-divider"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 pb-12 space-y-12">
+        
+        <!-- Concepto General -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-lightbulb icon-solar text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Concepto General</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Una serie de contenidos en tono de parodia que imita el estilo de los <strong class="text-emerald-400">Testigos de Jehová</strong> —personas que predican de puerta en puerta el fin del mundo y la promesa de la vida eterna—, pero en este caso, los <strong class="text-emerald-400">"Testigos de Solar Punk"</strong> anuncian la inminente <em>crisis climática</em> y ofrecen la <em>salvación ecotecnológica, comunitaria y sustentable</em> como respuesta.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-emerald-900 text-emerald-200 rounded-full text-sm">Comedia Absurda</span>
+                        <span class="px-4 py-2 bg-blue-900 text-blue-200 rounded-full text-sm">Ciencia Ficción Utópica</span>
+                        <span class="px-4 py-2 bg-purple-900 text-purple-200 rounded-full text-sm">Activismo Ambiental</span>
+                        <span class="px-4 py-2 bg-yellow-900 text-yellow-200 rounded-full text-sm">Storytelling Educativo</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800 rounded-xl p-6 quote-style">
+                    <i class="fas fa-quote-left text-emerald-400 text-2xl mb-4"></i>
+                    <p class="text-lg italic mb-4">"Hermano, ¿está usted preparado para el colapso energético?"</p>
+                    <p class="text-lg italic">"La salvación no está en los cielos, está en el tejado... ¡con paneles solares!"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Narrativa y Personajes -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-users icon-green text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Narrativa y Personajes</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <!-- Hermana Panelia y Hermano Compostino -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-user-friends text-emerald-400 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Protagonistas</h3>
+                    </div>
+                    <h4 class="font-bold text-emerald-300 mb-2">Hermana Panelia y Hermano Compostino</h4>
+                    <p class="text-gray-300 text-sm">
+                        Dos fervientes Testigos de Solar Punk que viajan en bici, llevan folletos hechos a mano reciclados y usan trajes entre religiosos y postapocalíptico-ecológicos.
+                    </p>
+                    <ul class="text-xs text-gray-400 mt-3 space-y-1">
+                        <li>• Gabardinas de lona solar</li>
+                        <li>• Mochilas con semillas</li>
+                        <li>• Lentes de VR de bambú</li>
+                    </ul>
+                </div>
+
+                <!-- El Profeta del Sol -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-sun text-yellow-400 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Figura Mítica</h3>
+                    </div>
+                    <h4 class="font-bold text-yellow-300 mb-2">El Profeta del Sol</h4>
+                    <p class="text-gray-300 text-sm mb-3">
+                        Figura mítica y un poco enloquecida que aparece en animaciones, sueños o grabaciones antiguas.
+                    </p>
+                    <div class="quote-style p-3 rounded">
+                        <p class="text-sm italic text-yellow-200">"¡El carbono caerá, y del sol brotará la vida eterna!"</p>
+                    </div>
+                </div>
+
+                <!-- Antagonistas y Aliados -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-theater-masks text-purple-400 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Universo</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-bold text-red-300 text-sm">Se enfrentan a:</h4>
+                            <ul class="text-xs text-gray-400 space-y-1">
+                                <li>• Escépticos capitalistas</li>
+                                <li>• Zombis del consumismo</li>
+                                <li>• Pecadores de obsolescencia</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-green-300 text-sm">Aliados inesperados:</h4>
+                            <ul class="text-xs text-gray-400">
+                                <li>• Abuelitas con huertos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formatos de Contenido -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-video icon-solar text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Formatos de Contenido</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Sketches -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <i class="fab fa-tiktok text-pink-400 text-2xl mb-3"></i>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-300">Serie de Sketches</h3>
+                    <p class="text-sm text-gray-300 mb-3">TikTok / Instagram Reels / YouTube Shorts</p>
+                    <ul class="text-xs text-gray-400 space-y-1">
+                        <li>• Duración: 30s - 1min</li>
+                        <li>• Estilo mockumentary</li>
+                        <li>• Visitas absurdas puerta a puerta</li>
+                    </ul>
+                    <div class="mt-3 p-2 bg-emerald-900 bg-opacity-30 rounded text-xs italic text-emerald-200">
+                        "¿Conoce usted el camino de la bici eterna?"
+                    </div>
+                </div>
+
+                <!-- Minidocumental -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <i class="fab fa-youtube text-red-400 text-2xl mb-3"></i>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-300">Minidocumental Paródico</h3>
+                    <p class="text-sm text-gray-300 mb-3">YouTube / Vimeo (8-10 minutos)</p>
+                    <ul class="text-xs text-gray-400 space-y-1">
+                        <li>• Orígenes del movimiento</li>
+                        <li>• Live action + animaciones</li>
+                        <li>• Archivos secretos y testimonios</li>
+                    </ul>
+                </div>
+
+                <!-- Folletería -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <i class="fas fa-book text-blue-400 text-2xl mb-3"></i>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-300">Folletería & Zine</h3>
+                    <p class="text-sm text-gray-300 mb-3">Digital + Físico</p>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 bg-blue-900 bg-opacity-30 rounded text-blue-200 italic">
+                            "¡Prepárese para la cosecha solar!"
+                        </div>
+                        <div class="p-2 bg-blue-900 bg-opacity-30 rounded text-blue-200 italic">
+                            "¡El colapso vendrá como ladrón... pero usted puede tener su bioestufa!"
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Podcast -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <i class="fas fa-podcast text-green-400 text-2xl mb-3"></i>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-300">Podcast: "Los Libros de Luz"</h3>
+                    <p class="text-sm text-gray-300 mb-3">Lectura dramatizada de textos sagrados</p>
+                    <ul class="text-xs text-gray-400 space-y-1">
+                        <li>• Manifiestos del movimiento</li>
+                        <li>• Cartas a la humanidad</li>
+                        <li>• Recetas de kombucha comunal</li>
+                    </ul>
+                </div>
+
+                <!-- Merch -->
+                <div class="bg-slate-800 rounded-xl p-6 md:col-span-2">
+                    <i class="fas fa-tshirt text-purple-400 text-2xl mb-3"></i>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-300">Merch y Cosas DIY</h3>
+                    <div class="grid grid-cols-2 gap-4 text-xs text-gray-400">
+                        <ul class="space-y-1">
+                            <li>• Kits de conversión solarpunk</li>
+                            <li>• Stencils de graffiti</li>
+                            <li>• Stickers "¡Peca menos, composta más!"</li>
+                        </ul>
+                        <ul class="space-y-1">
+                            <li>• Estampas solares</li>
+                            <li>• Ropa de segunda intervenida</li>
+                            <li>• Semillas urbanas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estética Visual -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-palette icon-green text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Estética Visual</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6 mb-8">
+                <!-- Paleta -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-emerald-300">Paleta de Colores</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 rounded-full bg-yellow-600 mr-3"></div>
+                            <span class="text-sm">Ocres</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 rounded-full bg-emerald-500 mr-3"></div>
+                            <span class="text-sm">Verdes brillantes</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 rounded-full bg-yellow-400 mr-3"></div>
+                            <span class="text-sm">Amarillos solares</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estilo -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-emerald-300">Estilo</h3>
+                    <ul class="text-sm text-gray-300 space-y-2">
+                        <li>• Retrofuturismo</li>
+                        <li>• Propaganda religiosa</li>
+                        <li>• Infografías recicladas</li>
+                    </ul>
+                </div>
+
+                <!-- Texturas -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-emerald-300">Texturas</h3>
+                    <ul class="text-sm text-gray-300 space-y-2">
+                        <li>• Papel reciclado</li>
+                        <li>• Madera natural</li>
+                        <li>• Plantas vivas</li>
+                        <li>• Tecnología artesanal</li>
+                    </ul>
+                </div>
+
+                <!-- Referencias -->
+                <div class="bg-slate-800 rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-emerald-300">Referencias</h3>
+                    <ul class="text-sm text-gray-300 space-y-2">
+                        <li>• The Yes Men</li>
+                        <li>• Bo Burnham</li>
+                        <li>• Solarpunk Artbook</li>
+                        <li>• Wes Anderson + Mad Max (vegana)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objetivos -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-bullseye icon-solar text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Objetivos del Proyecto</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <i class="fas fa-theater-masks text-red-400 text-xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold text-red-300 mb-2">Satirizar</h3>
+                            <p class="text-gray-300 text-sm">La desesperación apocalíptica y las soluciones milagrosas del mercado.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <i class="fas fa-share-alt text-blue-400 text-xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold text-blue-300 mb-2">Difundir conocimientos</h3>
+                            <p class="text-gray-300 text-sm">Sobre el movimiento solarpunk de forma ligera y viral.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <i class="fas fa-users text-green-400 text-xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold text-green-300 mb-2">Fomentar comunidad</h3>
+                            <p class="text-gray-300 text-sm">Cultura maker y pensamiento crítico ecológico.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <i class="fas fa-heart text-purple-400 text-xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold text-purple-300 mb-2">Viralizar una nueva fe</h3>
+                            <p class="text-gray-300 text-sm">La fe en lo colectivo, lo sostenible y lo bello.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Siguientes Pasos -->
+        <section class="bg-card rounded-2xl p-8 card-hover">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-rocket icon-green text-3xl mr-4"></i>
+                <h2 class="text-3xl font-bold text-white">Siguientes Pasos</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-800 rounded-xl p-6 border-l-4 border-emerald-500">
+                    <div class="flex items-center mb-3">
+                        <span class="bg-emerald-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">1</span>
+                        <h3 class="font-semibold text-emerald-300">Guion Piloto</h3>
+                    </div>
+                    <p class="text-sm text-gray-300">Sketch de visita puerta a puerta en edificio</p>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border-l-4 border-blue-500">
+                    <div class="flex items-center mb-3">
+                        <span class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">2</span>
+                        <h3 class="font-semibold text-blue-300">Casting & Vestuario</h3>
+                    </div>
+                    <p class="text-sm text-gray-300">Selección de personajes y prueba con materiales reciclados</p>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border-l-4 border-purple-500">
+                    <div class="flex items-center mb-3">
+                        <span class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">3</span>
+                        <h3 class="font-semibold text-purple-300">Producción Inicial</h3>
+                    </div>
+                    <p class="text-sm text-gray-300">Primeros 3 reels + mini folletos</p>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border-l-4 border-yellow-500">
+                    <div class="flex items-center mb-3">
+                        <span class="bg-yellow-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">4</span>
+                        <h3 class="font-semibold text-yellow-300">Lanzamiento</h3>
+                    </div>
+                    <p class="text-sm text-gray-300">En redes sociales con #TestigosDeSolarpunk</p>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border-l-4 border-red-500 md:col-span-2">
+                    <div class="flex items-center mb-3">
+                        <span class="bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">5</span>
+                        <h3 class="font-semibold text-red-300">Convocatoria de Conversión Colectiva</h3>
+                    </div>
+                    <p class="text-sm text-gray-300 mb-3">"¿Quieres ser misionero de la nueva luz? Únete al movimiento."</p>
+                    <div class="bg-red-900 bg-opacity-30 p-3 rounded text-center">
+                        <p class="text-red-200 font-semibold">#TestigosDeSolarpunk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 px-6">
+        <div class="section-divider"></div>
+        <p class="text-gray-400 mono">Una propuesta creativa para transformar el mundo, una puerta a la vez.</p>
+        <div class="flex justify-center items-center mt-4 space-x-4">
+            <i class="fas fa-leaf text-emerald-400"></i>
+            <i class="fas fa-sun text-yellow-400"></i>
+            <i class="fas fa-recycle text-green-400"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDuF0gAdG1D1ohPy5zfhwG1G%2B6YsAsclaGKdr4GgafVATyPUnoR2k%2BjPBFkVLJe15n61hHOHkjuIo47uPw9yPF0I2QBDp0SFp71%2BJj%2B8MR0O%2FqfZHrM1zfghNvIUAtd5Oja1E4w16UiZ4bnusVkkh3oPxDaUrgLg4jz8Sxf4gWyulA0%2F%2FGI1ErgWVsLN%2BIFEC0xS1t2y8HS0fAESH2W75lu4i8Wf7RTvSW12HaJuwrGZzBovsP442i4AcOJuHQ1XqO41B0uM7MadW%2Fol8n9r76sCuWrCctA3X3sHy0l%2BOw%2FMNZZP534DO%2Ba9o2n64KSs%2BWZp1lvcNNvxkLXOFdpndnQD53XeAkXE5JZrDuyrHPC%2BlZT8jK4%2BD44t7VUM%2FkKeYVlkXmg%2BuE7ONVl4fqMILfmx0rokcUDwOy27oPL2K7VjyDj4mLSbH%2B0iWemtSW69B%2Biax6pOGa%2Ba5GS%2FpO9tmKMLHmhCFqutiIFcp1kw5iWPvcsy5vYncm2bZj52r8Maj9k6%2Fd7OyMVRvHEMJEq7YBPQ%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDuF0gAdG1D1ohPy5zfhwG1G+6YsAsclaGKdr4GgafVATyPUnoR2k+jPBFkVLJe15n61hHOHkjuIo47uPw9yPF0I2QBDp0SFp71+Jj+8MR0O/qfZHrM1zfghNvIUAtd5Oja1E4w16UiZ4bnusVkkh3oPxDaUrgLg4jz8Sxf4gWyulA0//GI1ErgWVsLN+IFEC0xS1t2y8HS0fAESH2W75lu4i8Wf7RTvSW12HaJuwrGZzBovsP442i4AcOJuHQ1XqO41B0uM7MadW/ol8n9r76sCuWrCctA3X3sHy0l+Ow/MNZZP534DO+a9o2n64KSs+WZp1lvcNNvxkLXOFdpndnQD53XeAkXE5JZrDuyrHPC+lZT8jK4+D44t7VUM/kKeYVlkXmg+uE7ONVl4fqMILfmx0rokcUDwOy27oPL2K7VjyDj4mLSbH+0iWemtSW69B+iax6pOGa+a5GS/pO9tmKMLHmhCFqutiIFcp1kw5iWPvcsy5vYncm2bZj52r8Maj9k6/d7OyMVRvHEMJEq7YBPQ=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
